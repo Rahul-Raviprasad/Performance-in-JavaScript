@@ -14,7 +14,4 @@ See below the browser comparision:
 
 And their comment on || script script:
 
-![Image of parallel scripts loading](https://github.com/Rahul-Raviprasad/Performance-in-JavaScript/images/parallelScriptsComment.png)
-
-
-ttps://github.com/Rahul-Raviprasad/Performance-in-JavaScript/images/parallel scripts comment.png)
+![Image of parallel scripts loading](https://github.com/Rahul-Raviprasad/Performance-in-JavaScript/blob/master/images/parallelScriptsComment.png)
