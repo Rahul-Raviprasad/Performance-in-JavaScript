@@ -10,8 +10,8 @@ Today newer browsers support the ability to download scripts in parallel. The sc
 
 See below the browser comparision:
 
-![Image of browserscope comparison](Performance-in-JavaScript/images/browserscope.org || scripts.png)
+![Image of browserscope comparison](https://github.com/Rahul-Raviprasad/Performance-in-JavaScript/images/browserscope.org || scripts.png)
 
 And their comment on || script script:
 
-![Image of parallel scripts loading](Performance-in-JavaScript/images/parallel scripts comment.png)
+![Image of parallel scripts loading](https://github.com/Rahul-Raviprasad/Performance-in-JavaScript/images/parallel scripts comment.png)
