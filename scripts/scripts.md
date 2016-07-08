@@ -16,7 +16,33 @@ And their comment on || script script:
 
 ![Image of parallel scripts loading](https://github.com/Rahul-Raviprasad/Performance-in-JavaScript/blob/master/images/parallelScriptsComment.png)
 
-#### 2. Combine the Scripts
+#### 3. Minify the Scripts
+
+Needless to say the smaller the size of the file, less time it will to transfer online.
+You can use build tools like Grunt or Gulp for this. You can also explore different minifiers.
+
+In my case, I copy all the scripts to a build folder, and then just run uglify on them.
+
+I configured uglify like this in Grunt.
+
+```javascript
+
+uglify: {
+  compile: {
+    options: {
+      banner: '<%= meta.banner %>',
+    },
+    files: [{
+      expand: true,
+      cwd: '<%= build_dir %>',
+      src: ['*.js'],
+      dest: '<%= build_dir %>'
+    }]
+  }
+}
+```
+
+#### 3. Combine the Scripts
 
 It will take more time to load 10 scripts, say of size 10kb, than 1 script of 100kb size.
 
