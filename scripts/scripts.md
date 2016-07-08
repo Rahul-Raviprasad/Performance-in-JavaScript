@@ -16,9 +16,25 @@ And their comment on || script script:
 
 ![Image of parallel scripts loading](https://github.com/Rahul-Raviprasad/Performance-in-JavaScript/blob/master/images/parallelScriptsComment.png)
 
+```html
+<html>
+  <head>
+  </head>
+  </body>
+    <!--all the elements defn-->
+    ...
+    ...
+    ...
+
+    <!--Add Scripts here-->
+    <script src='abc.js'></script>
+  </body>
+</html>
+```
+
 #### 3. Minify the Scripts
 
-Needless to say the smaller the size of the file, less time it will to transfer online.
+Needless to say the smaller the size of the file, less time it will take to transfer online.
 You can use build tools like Grunt or Gulp for this. You can also explore different minifiers.
 
 In my case, I copy all the scripts to a build folder, and then just run uglify on them.
