@@ -50,3 +50,30 @@ for (var i=0, len=rows.length; i < len; i++) {
 ```
 
 Although the code change is small, the bitwise AND version is up to 50% faster than the original (depending on the browser).
+
+2. Bitmask
+
+Bitmasking is a popular technique in computer science when there are a number of Boolean options that may be present at the same time. The idea is to use each bit of a single number to indicate whether or not the option is present, effectively turning the number into an array of Boolean flags. Each option is given a value equivalent to a power of 2 so that the mask works. For example:
+```javascript
+var OPTION_A = 1;
+var OPTION_B = 2;
+var OPTION_C = 4;
+var OPTION_D = 8;
+var OPTION_E = 16;
+```
+With the options defined, you can create a single number that contains multiple settings using the bitwise OR operator:
+```javascript
+var options = OPTION_A | OPTION_C | OPTION_D;
+```
+You can then check whether a given option is available by using the bitwise AND operator. The operation returns 0 if the option isn’t set and 1 if the option is set:
+```javascript
+//is option A in the list?
+if (options & OPTION_A) {
+  //do something
+}
+//is option B in the list?
+if (options & OPTION_B){
+  //do something
+}
+```
+Bitmask operations such as this are quite fast because, as mentioned previously, the work is happening at a lower level of the system. If there are a number of options that are being saved together and checked frequently, bitmasks can help to speed up the overall approach.
