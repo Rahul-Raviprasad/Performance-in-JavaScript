@@ -91,3 +91,17 @@ concat: {
   }
 }
 ```
+
+#### 4. Add Scripts to page in a Non Blocking way
+
+keeping the size of your code small is not possible in a large application. Also loading a huge file will take a long to respond. To get around this issue, you need to add scripts to your project incrementally as you have need for them.
+
+There are a few techniques to achieve this.
+defer attribute in script tag
+```javascript
+<script type="text/javascript" src="loadParallel.js" defer></script>
+```
+
+The above file will start downloading as soon as the tag is reached, but it won't get executed until the DOM has loaded (onload method).
+
+![W3C](https://www.w3.org/TR/REC-html40/interact/scripts.html#adef-defer)
