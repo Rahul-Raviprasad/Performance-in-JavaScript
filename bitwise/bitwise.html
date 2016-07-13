@@ -1,0 +1,37 @@
+<html>
+<script>
+//row alternating example
+//Normal way
+
+function usualWay() {
+  var evenUsual = 0;
+  var oddUsual = 0;
+  for (var i=0, len=10000000; i < len; i++) {
+    if (i % 2) {
+      //"even"
+      evenUsual++;
+    } else {
+      //"odd";
+      oddUsual++;
+    }
+  }
+}
+
+function bitWay() {
+  var evenBit = 0;
+  var oddBit = 0;
+  for (var i=0, len=10000000; i < len; i++) {
+    if (i & 1) {
+      //"odd"
+      oddBit++;
+    } else {
+      //"even"
+      evenBit++;
+    }
+  }
+}
+
+usualWay();
+bitWay();
+</script>
+</html>

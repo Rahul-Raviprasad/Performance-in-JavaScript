@@ -20,7 +20,7 @@ how to see a number in binary?
 use the toString(2) method with argument 2.
 
 basic description of the operations are as follows:
-![Image of bitwise operations](https://github.com/Rahul-Raviprasad/Performance-in-JavaScript/blob/master/images/browserscope.org%7C%7Cscripts.png)
+![Image of bitwise operations](https://github.com/Rahul-Raviprasad/Performance-in-JavaScript/blob/master/images/bitwiseOperation.png)
 
 #### Examples
 
