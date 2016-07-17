@@ -1,6 +1,6 @@
-###Positioning the Scripts
+##Positioning and processing the Scripts
 
-#### 1. Always add the scripts at the very end of the body tags.
+### 1. Always add the scripts at the very end of the body tags.
 
 Browsers generally don't start downloading anything until they encounter <body> tag.
 So if script files are kept to the top then, there will be a considerable delay where a blank screen will be present until the page is shown.
@@ -32,7 +32,7 @@ And their comment on || script script:
 </html>
 ```
 
-#### 2. Minify the Scripts
+### 2. Minify the Scripts
 
 Needless to say the smaller the size of the file, less time it will take to transfer online.
 You can use build tools like Grunt or Gulp for this. You can also explore different minifiers.
@@ -58,7 +58,7 @@ uglify: {
 }
 ```
 
-#### 3. Combine the Scripts
+### 3. Combine the Scripts
 
 It will take more time to load 10 scripts, say of size 10kb, than 1 script of 100kb size.
 
@@ -92,7 +92,8 @@ concat: {
 }
 ```
 
-#### 4. Add Scripts to page in a Non Blocking way
+## Non Blocking Scripts loading
+### 4. Add Scripts to page in a Non Blocking way
 
 keeping the size of your code small is not possible in a large application. Also loading a huge file will take a long to respond. To get around this issue, you need to add scripts to your project incrementally as you have need for them.
 
@@ -105,3 +106,13 @@ defer attribute in script tag
 The above file will start downloading as soon as the tag is reached, but it won't get executed until the DOM has loaded (onload method).
 
 ![W3C](https://www.w3.org/TR/REC-html40/interact/scripts.html#adef-defer)
+
+## Recommend way of Non-Blocking pattern
+Take a two step process, first load code required only to dynamically include javascript, by doing this we can keep the size of initial script small and hence non blocking for the page. Second part is to load the actual javascript files using the initial load scripts.
+
+you can use a general purpose tool like "LazyLoad Library"(available at http://github.com/rgrove/lazyload/)
+
+
+##Summary
+
+By using the above strategies for scripts, you can greatly improve the perceived performance of a web application that requires a large amount of JavaScript code.
