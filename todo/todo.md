@@ -10,6 +10,7 @@ http://ncona.com/2016/07/bitwise-operations-in-javascript/
 
 good read
  https://css-tricks.com/case-study-boosting-front-end-performance/?ref=webdesignernews.com
+ https://blog.totaljs.com/blogs/tutorials/20161111-another-small-optimizations-in-javascript/
 
 ##### Tree shaking
 http://www.syntaxsuccess.com/viewarticle/tree-shaking-in-javascript
