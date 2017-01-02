@@ -1,8 +1,6 @@
 ## Accessing Data
 
-One of the classic computer science problems is determining where data should be stored for optimal reading and writing.
-
-This is a major problem in javascript, I remember a friend of mine refusing to work in javascript because it is very difficult to do asymptotic analysis of the code. Since it is so hard to tell if the written code is only containing primitive operations or what seems to be primitive would itself have some time complexity attached to it.
+This is a major problem in javascript, it is very difficult to do asymptotic analysis of the code. Since it is so hard to tell if the written code is only containing primitive operations or what seems to be primitive would itself have some time complexity attached to it.
 
 Knowledge of Data Structures and Algorithms would definitely help, but it becomes hard to say anything confidently because of the browser implementations. Each engine might have its own way of implementing the standards that it becomes hard to analyze on a white board. It is more brute-ish to implement different Algorithms and test them on multiple browsers.
 
