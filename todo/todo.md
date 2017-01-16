@@ -14,3 +14,8 @@ good read
 
 ##### Tree shaking
 http://www.syntaxsuccess.com/viewarticle/tree-shaking-in-javascript
+
+
+explore
+
+https://docs.google.com/presentation/d/1wiiZeRQp8-sXDB9xXBUAGbaQaWJC84M5RNxRyQuTmhk/edit#slide=id.p
