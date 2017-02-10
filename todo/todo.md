@@ -19,3 +19,5 @@ http://www.syntaxsuccess.com/viewarticle/tree-shaking-in-javascript
 explore
 
 https://docs.google.com/presentation/d/1wiiZeRQp8-sXDB9xXBUAGbaQaWJC84M5RNxRyQuTmhk/edit#slide=id.p
+
+https://medium.com/@addyosmani/javascript-start-up-performance-69200f43b201#.mazy92aol
