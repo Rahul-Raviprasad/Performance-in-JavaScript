@@ -19,6 +19,12 @@ These libraries and frameworks are there for complex websites and web applicatio
 5. Make a sprite sheet instead of multiple images.
     you can use Stitches An HTML5 sprite sheet generator - https://draeton.github.io/stitches/
 
+#### Use CDNs
+
+#### Hosting service and server speed
+
+#### Don't use redirects
+
 ## Tools to analyze performance
 
 1. https://developers.google.com/speed/
