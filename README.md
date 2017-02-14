@@ -17,3 +17,7 @@ These libraries and frameworks are there for complex websites and web applicatio
 3. Compress Images
 4. Use SVG for simple shapes and icons.
 5. Make a sprite sheet instead of multiple images.
+
+## Tools to analyze performance
+
+1. https://developers.google.com/speed/
