@@ -1,0 +1,3 @@
+## Debouncing
+
+There are some browser events that can fire many times within a short timespan very quickly, such as resizing a window or scrolling down a page. If you attach an event listener to the window scroll event for example, and the user continuously scrolls down the page very quickly, your event may fire thousands of times within the span of 3 seconds. This can cause some serious performance issues.
