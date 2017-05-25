@@ -8,5 +8,10 @@ Immediate behaviour could be a page loading. The user should not have to wait an
 
 If an interface needs that extra time, we should say ‘this may take a few more seconds’ and provide feedback on how long it will take. Don’t leave the user asking too many questions.
 
+## Micro animation
+Micro-animations are small, preferably functional animations that support the user by giving visual feedback and displaying changes more clearly. With micro-animations it’s possible to explain a lot without using a word.
+
+Not only does this provide feedback and is more intuitive for the user, it can also make the interaction more smoother instead of jerky.
+
 ## Resources
 1. https://blog.marvelapp.com/a-designers-guide-to-perceived-performance/
