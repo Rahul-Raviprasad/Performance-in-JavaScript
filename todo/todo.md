@@ -8,7 +8,7 @@ https://www.safaribooksonline.com/library/view/supercharged-javascript-graphics/
 http://ncona.com/2016/07/bitwise-operations-in-javascript/
 
 
-good read
+#### good read
  https://css-tricks.com/case-study-boosting-front-end-performance/?ref=webdesignernews.com
  https://blog.totaljs.com/blogs/tutorials/20161111-another-small-optimizations-in-javascript/
 
@@ -16,7 +16,7 @@ good read
 http://www.syntaxsuccess.com/viewarticle/tree-shaking-in-javascript
 
 
-explore
+##### explore
 
 https://docs.google.com/presentation/d/1wiiZeRQp8-sXDB9xXBUAGbaQaWJC84M5RNxRyQuTmhk/edit#slide=id.p
 
