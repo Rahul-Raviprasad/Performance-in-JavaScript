@@ -23,6 +23,15 @@ How to achieve this?
 
 #### Don't use redirects
 
+#### Remove the tap delay
+Mobile browsers often use a 300-350ms delay between the triggering of the touchend and click events. This delay was added so the browser could determine if there was going to be a double-tap triggered or not, since double-tap is a common gesture used to zoom into text. This delay can have the side effect of making interactions feel laggy, and therefore giving the user the impression that the site is slow, even if it’s their own browser causing the problem.
+
+Fortunately there’s a way to remove the delay. Add following in the <head> of your page, and the delay no longer takes effect:
+
+<meta name="viewport" content="width=device-width">
+
 ## Tools to analyze performance
 
 1. https://developers.google.com/speed/
+
+https://www.keycdn.com/support/pinpoint-website-performance-issues/
