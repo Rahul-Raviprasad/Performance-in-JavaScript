@@ -30,6 +30,16 @@ Fortunately there’s a way to remove the delay. Add following in the <head> of 
 
 <meta name="viewport" content="width=device-width">
 
+
+### Icon systems
+problem
+lets say your site requires 20 icons, you really don't want to make 20 seperate HTTP calls to fetch them. That would be slow.
+
+Solution
+An Icon system does 2 things
+1. All icons are in one request
+2. makes icons easy to use.
+
 ## Tools to analyze performance
 
 1. https://developers.google.com/speed/
