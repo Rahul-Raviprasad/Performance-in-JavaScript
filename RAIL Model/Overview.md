@@ -35,3 +35,12 @@ There are a few tools to help you automate your RAIL measurements. Which one you
 
 Sources:
 https://developers.google.com/web/fundamentals/performance/rail
+
+
+### User centric performance metrics
+
+When talking about performance it's important to be precise so we don't create misconceptions or spread myths that can sometimes lead to well-intentioned developers optimizing for the wrong things—ultimately harming the user experience rather than improving it.
+
+To offer a specific example, it's common today to hear people say something like: I tested my app, and it loads in X.XX seconds.
+
+The problem with this statement is not that it's false, it's that it misrepresents reality. Load times vary dramatically from user to user, depending on their device capabilities and network conditions. Presenting load times as a single number ignores the users who experienced much longer loads.
