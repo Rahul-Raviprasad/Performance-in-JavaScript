@@ -44,4 +44,9 @@ An Icon system does 2 things
 
 1. https://developers.google.com/speed/
 
-https://www.keycdn.com/support/pinpoint-website-performance-issues/
+2. https://www.keycdn.com/support/pinpoint-website-performance-issues/
+
+3. http://whichloadsfaster.co/
+You can check and compare with your competitor imstantly. for example amazon.in vs flipkart
+
+4. https://www.webpagetest.org/
