@@ -40,6 +40,11 @@ An Icon system does 2 things
 1. All icons are in one request
 2. makes icons easy to use.
 
+### Reducing image size, without loosing quality.
+www.smushit.com/ysmush.it/
+imageoptimizer.net
+pmt.sourceforge.net/pngcrush/
+
 ## Tools to analyze performance
 
 1. https://developers.google.com/speed/
