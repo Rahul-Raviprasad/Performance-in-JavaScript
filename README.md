@@ -45,6 +45,16 @@ www.smushit.com/ysmush.it/
 imageoptimizer.net
 pmt.sourceforge.net/pngcrush/
 
+### Image sprite
+flowermind.com/sprite-creator
+spriteme.org
+spritegen.website-performance.org/
+
+css optimizer for inline styles
+
+### concatination
+zbugs.com
+
 ## Tools to analyze performance
 
 1. https://developers.google.com/speed/
