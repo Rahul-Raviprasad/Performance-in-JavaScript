@@ -52,8 +52,9 @@ spritegen.website-performance.org/
 
 css optimizer for inline styles
 
-### concatination
+### concatenation
 zbugs.com
+
 
 ## Tools to analyze performance
 
