@@ -60,6 +60,10 @@ Just because we use JSON, doesn't automatically mean its good.
 Many times there is repetitive data in calls. Maybe because of how the backend is organized.
 So say on a social media site, your profile fetches some data, then a timeline items gets another data but also contains data already present and on and on.
 
+### AJAX vs Web Sockets
+For the same stuff generally AJAX is a little bit more heavier.
+
+
 ## Tools to analyze performance
 
 1. https://developers.google.com/speed/
