@@ -55,6 +55,10 @@ css optimizer for inline styles
 ### concatenation
 zbugs.com
 
+### JSON
+Just because we use JSON, doesn't automatically mean its good.
+Many times there is repetitive data in calls. Maybe because of how the backend is organized.
+So say on a social media site, your profile fetches some data, then a timeline items gets another data but also contains data already present and on and on.
 
 ## Tools to analyze performance
 
