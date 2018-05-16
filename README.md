@@ -63,6 +63,41 @@ So say on a social media site, your profile fetches some data, then a timeline i
 ### AJAX vs Web Sockets
 For the same stuff generally AJAX is a little bit more heavier.
 
+### Resource loading
+1. Preloading.
+There are pitfall, you are loading something assuming you will need it in future. If you did, great but What if you don't?
+
+one way is to use the follwoing
+
+<link rel="prefetch" href="something.jpg">
+2.  Lazy Loading /on demand/Post loading.
+
+Stuff that is not immediately needed.
+
+```js
+function scriptLoaded() {
+  // do something here
+}
+
+var myScript = document.createElement("script");
+myScript.src = "xyz.js";
+document.head.appendChild(myScript);
+
+// onload doesn't only mean loading the file, but means loaded, executed and done.
+myScript.onload = scriptLoaded;
+
+myScript.onreadystatechange = function () {
+  if(myScript.readyState === "loaded" || myScript.readyState === "complete") {
+    scriptLoaded();
+  }
+}
+
+```
+
+Try dynamic loading of stuff, you can tools like lab.js and avoid document.write
+
+document.write is considered a bad practice.(EVIL)
+https://stackoverflow.com/questions/802854/why-is-document-write-considered-a-bad-practice
 
 ## Tools to analyze performance
 
