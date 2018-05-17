@@ -99,6 +99,32 @@ Try dynamic loading of stuff, you can tools like lab.js and avoid document.write
 document.write is considered a bad practice.(EVIL)
 https://stackoverflow.com/questions/802854/why-is-document-write-considered-a-bad-practice
 
+
+
+## Opinions
+
+Some consider Object Oriented (OO) code to be slower.
+
+* It is because the objects are a live interpreted links to objects being created, vs compiled classes in compiled languages like java.
+* Running batch operations on nested stuff can run you into trouble.
+* Check if you really need many of the abstractions and if that could be easily replaced by something simple yet maintainable.
+
+## CSS Animations are generally faster than JS
+If possible and generally for simple animations most often it is then, you can replace the Javascript code with CSS.
+
+Also many times people use things like setTimeout which is not clear on when it will execute all it tell is to wait for a certain amount of time.
+So for critical animations it can be wrong, and this is the same for setInterval.
+So people use many of the graphing and animation libraries that takes care of this, but even they are not really correct , they simply adjust for the mistakes by either dropping frame or skipping them by monitoring these things.
+
+##### reAnimationFrame in JS
+Use this new feature for animation, here you don't control the frame rate but is generally better.
+It is also better for you devices when you use a different tab or when the page is not active. In such cases the browser is smart enough to realize that you are not using this and then pause it whereas when you use setTimeout it keeps running in the background. As browser doesn't know that it is being used for repainting the screen.
+
+
+##### CSS Transition vs JS Animation.
+
+
+
 ## Tools to analyze performance
 
 1. https://developers.google.com/speed/
