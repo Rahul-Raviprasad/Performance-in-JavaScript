@@ -18,6 +18,24 @@ http://www.syntaxsuccess.com/viewarticle/tree-shaking-in-javascript
 
 ##### explore
 
+
 https://docs.google.com/presentation/d/1wiiZeRQp8-sXDB9xXBUAGbaQaWJC84M5RNxRyQuTmhk/edit#slide=id.p
 
 https://medium.com/@addyosmani/javascript-start-up-performance-69200f43b201#.mazy92aol
+
+
+## Single Threaded
+Async vs Parallel
+
+JS has asynchronous code but is not multi-threaded.
+
+Intel's river trail.
+
+Example of places where multi threading would help enormously
+Map Reduce on an massively large binary array
+
+JS is single threaded so, if CSS wants to repaint or if garbage collection happens just when your js function needs to run, you might experience jerkyness.
+
+
+## WebWorkers
+The thread actually runs completely separately and has its own context. The communication between your thread and the webworker thread can become a bottleneck
