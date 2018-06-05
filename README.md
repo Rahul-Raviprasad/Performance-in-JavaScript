@@ -110,7 +110,7 @@ Some consider Object Oriented (OO) code to be slower.
 * Check if you really need many of the abstractions and if that could be easily replaced by something simple yet maintainable.
 
 ## CSS Animations are generally faster than JS
-If possible and generally for simple animations most often it is then, you can replace the Javascript code with CSS.
+
 
 Also many times people use things like setTimeout which is not clear on when it will execute all it tell is to wait for a certain amount of time.
 So for critical animations it can be wrong, and this is the same for setInterval.
@@ -123,7 +123,7 @@ It is also better for you devices when you use a different tab or when the page 
 
 ##### CSS Transition vs JS Animation.
 
-
+If possible and generally for simple animations most often it is then, you can replace the Javascript code with CSS.
 
 ## Tools to analyze performance
 
