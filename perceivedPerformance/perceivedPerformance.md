@@ -4,7 +4,7 @@ There are two kinds of time: clock time and brain time. The former is the object
 
 
 ## If it takes more than 2 seconds, provide feedback
-Immediate behaviour could be a page loading. The user should not have to wait any more than 1 or 2 seconds for the results they want to load.
+Immediate behavior could be a page loading. The user should not have to wait any more than 1 or 2 seconds for the results they want to load.
 
 If an interface needs that extra time, we should say ‘this may take a few more seconds’ and provide feedback on how long it will take. Don’t leave the user asking too many questions.
 
